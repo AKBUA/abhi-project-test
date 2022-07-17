@@ -1,0 +1,77 @@
+.modal-wrapper{
+    width:30%;
+    
+border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+position:absolute;
+left: 50%;
+top:50%;
+transform: translate(-50%,-50%);
+z-index: 10;
+}
+
+.modal-crop{
+    width:100%;
+    
+}
+.modal-crop img
+{
+    width:100%;
+    margin: 0;
+}
+.avatar{
+    width:40px;
+    border-radius: 50%;
+    height: 40px;
+}
+.content{
+    padding: 1em 1em;
+    
+}
+
+.avatar-info{
+    width:100%;
+    
+    
+display:flex ;
+flex-direction: row;
+align-items:center;
+justify-content: flex-start;
+width:100%;
+
+}
+
+.avatar-info .role{
+    margin-left: 0.5em;
+    width:80%;
+    font-size: 0.8em;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.roles{
+    margin-left: 0.5em;
+}
+.modal-wrapper h3 {
+text-align: right;
+color: dimgray;
+
+
+margin:0;
+margin-right: 0.5em;
+}
+.modal-wrapper h3:hover{
+color: black;
+cursor: pointer;
+}
+
+.mask{
+    position: fixed;
+    top:0;
+    right:0;
+    background-color:rgba(0, 0, 0, 0.096);
+    left: 0;
+    z-index: 5;
+    bottom: 0;
+}
